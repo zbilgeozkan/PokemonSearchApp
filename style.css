@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #search-input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #search-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #search-button:hover {
+    background-color: #45a049;
+  }
+  
+  .output {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .output.active {
+    display: block;
+  }
+  
+  .top-container, .bottom-container {
+    margin-top: 20px;
+  }
+  
+  .name-and-id {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .size {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .sprite-container img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  #types {
+    margin-top: 10px;
+  }
+  
+  .type {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+    color: white;
+  }
+  
+  .type.normal { background-color: #A8A77A; }
+  .type.fire { background-color: #EE8130; }
+  .type.water { background-color: #6390F0; }
+  .type.electric { background-color: #F7D02C; }
+  .type.grass { background-color: #7AC74C; }
+  .type.ice { background-color: #96D9D6; }
+  .type.fighting { background-color: #C22E28; }
+  .type.poison { background-color: #A33EA1; }
+  .type.ground { background-color: #E2BF65; }
+  .type.flying { background-color: #A98FF3; }
+  .type.psychic { background-color: #F95587; }
+  .type.bug { background-color: #A6B91A; }
+  .type.rock { background-color: #B6A136; }
+  .type.ghost { background-color: #735797; }
+  .type.dragon { background-color: #6F35FC; }
+  .type.dark { background-color: #705746; }
+  .type.steel { background-color: #B7B7CE; }
+  .type.fairy { background-color: #D685AD; }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    text-align: left;
+  }
+  
+  td {
+    text-align: left;
+  }
+  
